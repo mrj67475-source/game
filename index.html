@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NWSTMS team downloads</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f1117;
+            color: #e2e8f0;
+            font-family: system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: #1e2433;
+            border: 1px solid #2d3748;
+            border-radius: 16px;
+            padding: 48px;
+            text-align: center;
+            max-width: 480px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            color: #718096;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        .file-info {
+            background: #0f1117;
+            border-radius: 10px;
+            padding: 16px 24px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .file-icon {
+            font-size: 32px;
+        }
+
+        .file-details {
+            text-align: left;
+        }
+
+        .file-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #e2e8f0;
+        }
+
+        .file-meta {
+            font-size: 12px;
+            color: #718096;
+            margin-top: 2px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #4f6ef7;
+            color: white;
+            text-decoration: none;
+            padding: 14px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.2s;
+            width: 100%;
+        }
+
+        .download-btn:hover {
+            background: #3a57d4;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🎮 Game1</h1>
+        <p class="subtitle">First version</p>
+
+        <div class="file-info">
+            <div class="file-icon">📦</div>
+            <div class="file-details">
+                <div class="file-name">Game1_x64bit.zip</div>
+                <div class="file-meta">Windows 64-bit</div>
+            </div>
+        </div>
+
+        <a class="download-btn" href="https://pub-de6683c242ba4b4ea6f975b769d2c70e.r2.dev/Game1_x64bit.zip" download>
+            ⬇️ Download
+        </a>
+
+        <p class="note">Launch with 3DCoreGame1.exe</p>
+    </div>
+</body>
+</html>
